@@ -1,0 +1,20 @@
+name: MinebitLink
+version: '${project.version}'
+main: dev.minebit.link.MinebitLink
+api-version: '1.21'
+description: Shows your open Minebit roles to your players and links your server to your Minebit network.
+website: https://minebit.dev
+softdepend: [PlaceholderAPI]
+permissions:
+  minebit.link.use:
+    description: Use /hiring to see open roles.
+    default: true
+  minebit.link.see:
+    description: Receive announcements and the join message.
+    default: true
+  minebit.link.admin:
+    description: Reload the plugin and see its status.
+    default: op
+  minebit.link.alerts:
+    description: Get an in-game alert when someone applies to a role. Give this to the staff who handle applications.
+    default: false

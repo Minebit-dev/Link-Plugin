@@ -1,0 +1,41 @@
+{
+  "username": "Minebit - Minecraft Job Board",
+  "avatar_url": "https://minebit.dev/brand/minebit-icon-512.png",
+  "flags": 32768,
+  "components": [
+    {
+      "type": 17,
+      "accent_color": 8028042,
+      "components": [
+        {
+          "type": 10,
+          "content": "-# MINEBIT  •  ROLE CLOSED"
+        },
+        {
+          "type": 10,
+          "content": "# {title}\nThis role is no longer open at **{network}**."
+        },
+        {
+          "type": 14,
+          "divider": true,
+          "spacing": 1
+        },
+        {
+          "type": 9,
+          "components": [
+            {
+              "type": 10,
+              "content": "### Looking for something else?\nOther roles may still be open."
+            }
+          ],
+          "accessory": {
+            "type": 2,
+            "style": 5,
+            "label": "Open roles",
+            "url": "{network-url}"
+          }
+        }
+      ]
+    }
+  ]
+}

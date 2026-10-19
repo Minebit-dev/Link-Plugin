@@ -1,0 +1,29 @@
+Network-Slug: ""
+Base-Url: "https://minebit.dev"
+Link-Key: ""
+Refresh-Minutes: 10
+Max-Roles-Shown: 5
+
+Announcements:
+  Enabled: false
+  Interval-Minutes: 30
+  New-Roles: false
+  New-Roles-Sound: "block.note_block.chime"
+
+Join-Message:
+  Enabled: false
+  Delay-Seconds: 5
+
+Staff-Alerts:
+  Enabled: true
+  Poll-Seconds: 60
+  Sound: "entity.experience_orb.pickup"
+
+Discord:
+  Webhook-Url: ""
+  New-Roles:
+    Enabled: true
+    Template: "new-role.json"
+  Closed-Roles:
+    Enabled: false
+    Template: "closed-role.json"

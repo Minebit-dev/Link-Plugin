@@ -1,0 +1,65 @@
+{
+  "username": "Minebit - Minecraft Job Board",
+  "avatar_url": "https://minebit.dev/brand/minebit-icon-512.png",
+  "flags": 32768,
+  "components": [
+    {
+      "type": 17,
+      "accent_color": 2282478,
+      "components": [
+        {
+          "type": 10,
+          "content": "-# MINEBIT  •  NEW ROLE"
+        },
+        {
+          "type": 10,
+          "content": "# {title}\n**{network}** is hiring"
+        },
+        {
+          "type": 14,
+          "divider": true,
+          "spacing": 1
+        },
+        {
+          "type": 10,
+          "content": "**Pay**\n{pay}\n\n**Category**\n{category}"
+        },
+        {
+          "type": 14,
+          "divider": true,
+          "spacing": 1
+        },
+        {
+          "type": 9,
+          "components": [
+            {
+              "type": 10,
+              "content": "### Ready to apply?\nIt only takes a minute."
+            }
+          ],
+          "accessory": {
+            "type": 2,
+            "style": 5,
+            "label": "View role",
+            "url": "{url}"
+          }
+        },
+        {
+          "type": 9,
+          "components": [
+            {
+              "type": 10,
+              "content": "### More from {network}\nSee every open role."
+            }
+          ],
+          "accessory": {
+            "type": 2,
+            "style": 5,
+            "label": "All roles",
+            "url": "{network-url}"
+          }
+        }
+      ]
+    }
+  ]
+}
